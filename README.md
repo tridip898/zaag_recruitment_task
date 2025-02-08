@@ -1,16 +1,7 @@
 # zaag_recruitment_task
 
-A new Flutter project.
+In this project have two screen.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Favorite Item Screen
+Add Item Screen
+In first screen, i am showed favorite item and if there are no item showed no item message. In second screen, I am fetched API Data and display in view. We can add item as favorite by click love icon and i am stored this item as favorite item list in global state. Also i am stored all favorite item id in shared preference so when we load data all previous favorite item selected as favorite.
